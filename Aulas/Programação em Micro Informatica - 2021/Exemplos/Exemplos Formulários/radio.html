@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+		<meta charset="utf-8">
+		<meta name="author" content="Brendon Feitosa">
+		<meta name="description" content="Formulário">
+		<meta name="keywords" content="formulário">
+		<title>Formulário Radio</title>
+		
+</head>
+
+<body>
+
+	<form action="mailto:brendon.feitosa@fatec.sp.gov.br">
+		<label for="nome1"> Nome: </label> <br>
+		<input type="text" id="nome1" name="nome" value="">
+		<br>
+		<label for="sobre"> Sobrenome: </label> <br>
+		<input type="text" id="sobre" name="Sobrenome" value="">
+		<br>
+		<br>
+		
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Limpar">
+		<input type="button" value="Imprimir" onclick="print()">
+	</form><br>
+		
+	<form action="mailto:brendon.feitosa@fatec.sp.gov.br">
+		<input type="radio" id="solteiro" name="estado_civil" value="solteiro">
+		<label for="casado">Solteiro</label><br>
+		
+		<input type="radio" id="viuvo" name="estado_civil" value="viuvo">
+		<label for="casado">Viúvo</label><br>
+		<br>
+		
+		<input type="submit" value="enviar">
+		
+	</form>
+	
+</body>
+
+</html>

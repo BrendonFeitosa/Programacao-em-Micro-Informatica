@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="author" content="Brendon Feitosa">
+	<meta name="description" content="Formulários">
+	<meta name="keywords" content="formularios">
+	<title> Atividade Formulários </title>
+	
+	<style>
+	
+		body {
+			font-family: arial;
+			background-color: #b7d5e5;
+			}
+		
+		h3 {
+			text-align: center;
+			text-transform: uppercase;
+			}
+	
+		.direita {
+			text-align: right;
+			margin-right: 1000px;
+			}
+			
+		input[type=text]{
+			padding: 5px;
+			}
+			
+		input[type=submit], input[type=reset] {
+			background-color: #4682B4;
+			color: white;
+			padding: 12px 18px;
+			boder: 2px solid darkblue;
+			margin: 5px 8px;
+			}
+
+
+	
+	</style>
+	
+</head>
+
+<body>
+
+	<h3>Agendamento de recursos para realização de evento</h3>
+
+	<form action="mailto:brendon.feitosa@fatec.sp.gov.br" autocomplete="on">
+		<label for="evento"><strong>Evento</strong> </label> 
+		<input type="text" id="evento" name="Evento" value="" size="50" maxlength="50" placeholder="Evento" autofocus>
+	<br>
+	<br>
+	
+		<label for="funcionario"><strong>Funcionário </strong></label>
+		<input type="text" id="funcionario" name="Funcionário" value="" size="50" maxlength="50" placeholder="Funcionário">
+	
+		<label> <strong>Departamento </strong>
+			<select name="departamento">
+				<option value=""> </option>
+				<option value="Administrativo">Administrativo</option>
+				<option value="Financeiro">Financeiro</option>
+				<option value="T.I.">T.I.</option>
+				<option value="R.H.">R.H.</option>
+				<option value="Marketing">Marketing</option>
+			</select>
+		</label>
+		<br>
+		<br>
+ 
+		<label for="email"><strong>E-mail </strong></label>
+		<input type="email" id="email" name="E-mail" value="" size="50" maxlength="50" placeholder="Digite o E-mail">
+	<br>
+	<br>
+
+		<label for="dt_hora"><strong>Data e Hora </strong></label> 
+		<input type="datetime-local" id="dt_hora" name="Data e Hora" value="">
+	<br>
+	<br>
+
+		<label for="local"><strong>Local </strong></label> 
+		<input type="text" id="local" name="Local" value="" size="50" maxlength="50" placeholder="Local">
+	<br>
+	<br>	
+	
+		<legend> Equipamento Necessário (marque tudo que for necessário)</legend>
+		<br>
+			<input type="checkbox" id="projetor" name="projetor" value="Projetor Multmídia (Datashow)">
+			<label for="projetor">Projetor Multmídia (Datashow)</label>
+			<br>
+			<br>
+			<input type="checkbox" id="notebook" name="notebook" value="Notebook">
+			<label for="notebook">Notebook</label>
+			<br>
+			<br>			
+			<input type="checkbox" id="caixa_de_som" name="Caixa de Som" value="Caixa de Som">
+			<label for="caixa_de_som">Caixa de Som</label>
+			<br>
+			<br>
+			<input type="checkbox" id="microfone" name="microfone" value="Microfone">
+			<label for="microfone">Microfone </label>
+				<input type="radio" id="com_fio" name="fio" value="com_fio">
+				<label for="com_fio">Com Fio </label>	
+				<input type="radio" id="sem_fio" name="fio" value="sem_fio">
+				<label for="sem_fio">Sem Fio</label>
+			<br>
+			<br>
+			<input type="checkbox" id="acesso_internet" name="acesso_internet" value="acesso_internet">
+			<label for="acesso_internet">Acesso a Internet</label>
+			<br>
+			<br>
+			
+		<label for="obs"><strong>Observações </strong> </label><br><br>
+		<textarea id="obs" name="observacao" rows="8" cols="50"> </textarea> <br>
+		<br>
+	
+		<label for="dt_reserva"><strong>Data da Reserva </strong></label> 
+		<input type="date" id="dt_reserva" name="Data da Reserva" value="" min="01/11/2021" max="31/12/2021" required>
+		<br>
+		<br>	
+		
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Redefinir">
+	</form>
+	
+	
+ <body>
+ 
+ </html>
+	

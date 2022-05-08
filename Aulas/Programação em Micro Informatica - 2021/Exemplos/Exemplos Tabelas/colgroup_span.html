@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+		<meta charset="utf-8">
+		<meta name="author" content="Brendon Feitosa">
+		<meta name="description" content="Tabelas, thead, colgroup">
+		<meta name="keywords" content="colgroup">
+		<title> Colgroup</title>
+	
+		<style> 
+		
+			.vermelho { 
+				background-color:red;
+				}
+				
+			.amarelo {
+				background-color: yellow;
+				}
+				
+			.azul {
+				background-color: blue;
+				}
+				
+			table {
+				border: 1px solid black;
+				}
+				
+		</style>
+</head>
+
+<body>
+
+	<table>
+
+		<colgroup>
+			<col class="vermelho">
+			<col span="2" class="amarelo">
+			
+		</colgroup>
+		
+		<tr>
+			<th>Nome</th>
+			<th>Idade</th>
+			<th>Profissão</th>
+		</tr>
+		
+		<tr>
+			<td>José</td>
+			<td>32</td>
+			<td>Estudante</td>
+		</tr>
+		
+		<tr>
+			<td>Maria</td>
+			<td>26</td>
+			<td>Médica</td>
+		</tr>
+		
+	</table>	
+		
+</body>
+
+</html>

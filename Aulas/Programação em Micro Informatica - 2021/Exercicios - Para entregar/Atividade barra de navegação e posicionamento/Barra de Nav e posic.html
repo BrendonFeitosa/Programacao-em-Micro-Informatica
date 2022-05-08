@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Brendon Feitosa">
+	<meta name="description" content="barra de navegação, posicionamento, tabelas">
+	<meta name="keywords" content="barra, barra de navegação, posicionamento, tabelas, tr, td, td, table">
+	<link rel="shortcut icon" href="faviconPA.ico" type="favicon.ico">
+	<title>Atividade – Barra de Navegação e Posicionamento</title>
+	
+	<style>
+	
+		body {
+			text-align: justify;
+			font-family: arial;
+			line-height: 1.1;
+			}
+			
+		ul {
+			list-style-type: none;
+			background-color: black;
+			color: white;
+			position: fixed;
+			width: 100%;
+			margin: auto;
+			top: 0;
+			}
+
+		li a {
+			float: left;
+			background-color: black;
+			color: white;
+			padding: 8px 16px;
+			text-decoration: none;
+			margin-left: 120px;
+			}
+			
+		.texto {
+			border: 1px solid black;
+			width: 350px;
+			height: 350px;
+			float: left;
+			text-align: justify;
+			margin: 15px;
+			padding: 5px;
+			}
+			
+		a.esquerda {
+			text-align: left;
+			text-decoration: none;
+			margin-left: 245px;
+			}
+			
+		p.p1 {
+			margin-top: 40px;
+			}
+	
+		table, td, th{
+			border: 1px solid black;
+			border-collapse: collapse;
+			width: 750px;
+			}
+			
+		tabela {
+			float: letf;
+			margin:0;
+			width: 100%;
+			position: fixed;
+			}
+			
+		.texto2 {
+			height: 70%;
+			width: 760px;
+			float: left;
+			}
+		
+		th { 
+			text-align: center;
+			}
+	
+	</style>
+</head>
+
+<body>
+
+		<ul>
+			<li> <a href="https://g1.globo.com/sp/presidente-prudente-regiao/" target="-blanck" title="G1 Prudente"> Notícias </a></li>
+			<li> <a href="https://www.luis.blog.br/opiniao-de-quem-fez-faculdade-a-distancia.html" target="_blanck" title="Faculdade a distância"> Opinião </a></li>
+			<li> <a href="https://exame.com/economia/" target="_blanck" title="Revista Exame - Economia"> Economia </a></li>
+			<li> <a href="https://ge.globo.com/" target="_blanck" title="Globo Esporte"> Esporte </a></li>
+			<li> <a href="https://cultura.uol.com.br/" target="_blanck" title="TV Cultura"> Cultura </a></li>
+			<li> <a href="https://g1.globo.com/podcast/" target="_blanck" title="G1 Podcast"> Podcast </a></li>
+		</ul>	
+		
+		<p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor dolor, hendrerit a sapien ac, suscipit pharetra enim. Quisque eleifend, ante sit amet ultrices facilisis, nunc orci aliquam ex, vitae mollis purus enim vel ex. Morbi pretium sodales finibus. Integer accumsan viverra odio sed bibendum. Nullam in venenatis purus. Pellentesque sed neque quam. Maecenas id tempor libero, sit amet dapibus dui. Pellentesque ac urna consectetur, elementum orci et, porttitor ante. Sed et massa pretium nibh euismod volutpat sed eu elit. Proin finibus, massa a gravida malesuada, urna ante efficitur felis, nec dictum nisi velit vel leo. Donec vestibulum aliquet ipsum, nec lobortis dui feugiat at. Quisque rutrum nisi eget dolor sodales, nec venenatis velit rutrum.</p>
+		
+		<div class="texto">
+		
+			<h1> Título da Noticia </h1>
+		
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae tortor id lacus placerat sollicitudin eu ut arcu. Curabitur porta viverra mi, quis malesuada neque varius molestie. Suspendisse ante augue, condimentum eu ex id, feugiat molestie mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus et mattis massa. Vivamus hendrerit placerat arcu, in cursus metus auctor non. Suspendisse in libero pretium, aliquet tortor in, convallis ante. Pellentesque ac ex non nulla tincidunt porttitor a at neque. Vestibulum egestas ligula ac dui auctor rutrum.</p>
+			<a class="esquerda" href="http://fatecpp.edu.br/noticias/viii-encontro-internacional-de-competencias-digitais-para-agricultura-familiar/" target="_blanck"> + informações</a>
+
+		</div>
+
+		<div class="texto">
+		
+			<h1> Título da Noticia </h1>
+		
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae tortor id lacus placerat sollicitudin eu ut arcu. Curabitur porta viverra mi, quis malesuada neque varius molestie. Suspendisse ante augue, condimentum eu ex id, feugiat molestie mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus et mattis massa. Vivamus hendrerit placerat arcu, in cursus metus auctor non. Suspendisse in libero pretium, aliquet tortor in, convallis ante. Pellentesque ac ex non nulla tincidunt porttitor a at neque. Vestibulum egestas ligula ac dui auctor rutrum.</p>
+			<a class="esquerda" href="http://fatecpp.edu.br/" target="_blanck">  + informações </a>
+		
+		</div>
+		
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae tortor id lacus placerat sollicitudin eu ut arcu. Curabitur porta viverra mi, quis malesuada neque varius molestie. Suspendisse ante augue, condimentum eu ex id, feugiat molestie mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus et mattis massa. Vivamus hendrerit placerat arcu, in cursus metus auctor non. Suspendisse in libero pretium, aliquet tortor in, convallis ante. Pellentesque ac ex non nulla tincidunt porttitor a at neque. Vestibulum egestas ligula ac dui auctor rutrum.</p>
+		
+		<p>Nullam ultrices nibh vitae magna luctus, vitae lacinia sapien pharetra. Etiam ac elit aliquam, ornare massa nec, tempus dolor. Proin mauris elit, dignissim eu maximus eget, tincidunt in sapien. Aenean gravida est aliquet mauris feugiat, in scelerisque elit ultrices. Sed vitae lorem mollis, ullamcorper turpis a, sagittis augue. Cras ut vulputate lacus, vitae egestas tortor. Duis porta scelerisque eleifend. Duis tincidunt rutrum turpis eu maximus. Aliquam erat volutpat. Cras risus nisl, tincidunt eget efficitur sed, cursus a massa. Nulla cursus lacus ac sem hendrerit, vitae pellentesque orci elementum. Nunc luctus condimentum turpis sit amet maximus. Vestibulum luctus nunc at tellus mollis aliquet. Duis nibh lectus, dictum eget viverra ac, fermentum sed felis. Pellentesque ornare non purus at condimentum.</p>
+		
+		<p>Fusce ut condimentum ante, et venenatis neque. Morbi molestie accumsan neque, id tempus tortor rutrum ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In nisi ipsum, suscipit vitae eros ut, placerat finibus purus. Pellentesque pretium, lectus et lacinia condimentum, augue mauris porta libero, a gravida nunc nisi sed est. Donec imperdiet nec ligula sed vehicula. Nullam ut dui ut justo pretium vestibulum. Praesent ac ligula ornare nulla faucibus gravida sed at justo. Ut scelerisque orci laoreet quam malesuada volutpat. Curabitur in magna in ex ultricies elementum ut ac odio.</p>
+		
+		<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc dapibus vehicula urna ac lacinia. Curabitur consequat sapien et turpis mollis, id lobortis erat bibendum. Etiam dolor augue, iaculis a nibh non, ultrices ultricies eros. Donec ipsum risus, ultrices non risus non, aliquam consectetur leo. Quisque egestas leo vel tellus convallis tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dapibus sit amet nisi id finibus. Suspendisse consequat sed nisl in ornare. In non hendrerit nibh. Etiam ornare mauris nec libero gravida, sed posuere eros varius.</p>
+		
+		<p>Donec gravida dictum lectus ut blandit. Morbi commodo ante sit amet lectus convallis, ac malesuada est sodales. Vestibulum vitae velit lacus. Aenean non semper quam, vitae tincidunt nunc. Pellentesque tempor dui eget gravida interdum. Nulla ultrices blandit metus a finibus. Curabitur finibus elit eget maximus elementum. Sed commodo sed libero ut interdum. Nullam volutpat tempus augue sit amet hendrerit. Etiam dictum nisi vitae porta facilisis. Nunc cursus viverra luctus. Sed leo odio, tristique et pulvinar sed, viverra vel risus. Vivamus sit amet fringilla ligula. Etiam luctus ex id malesuada tincidunt.</p>
+		
+		<div class="texto2">
+		
+			<table>
+				<tr>
+					<th>Título</th>
+					<th>Título</th>
+					<th>Título</th>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor sit amet</dt>
+					<td>Lorem ipsum dolor sit amet</dt>
+					<td>Lorem ipsum dolor sit amet</dt>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor sit amet</dt>
+					<td>Lorem ipsum dolor sit amet</dt>
+					<td>Lorem ipsum dolor sit amet</dt>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor sit amet</dt>
+					<td>Lorem ipsum dolor sit amet</dt>
+					<td>Lorem ipsum dolor sit amet</dt>
+				</tr>
+			</table>
+			
+		</div>
+
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae tortor id lacus placerat sollicitudin eu ut arcu. Curabitur porta viverra mi, quis malesuada neque varius molestie. Suspendisse ante augue, condimentum eu ex id, feugiat molestie mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus et mattis massa. Vivamus hendrerit placerat arcu, in cursus metus auctor non. Suspendisse in libero pretium, aliquet tortor in, convallis ante. Pellentesque ac ex non nulla tincidunt porttitor a at neque. Vestibulum egestas ligula ac dui auctor rutrum.</p>
+		
+		<p>Nullam ultrices nibh vitae magna luctus, vitae lacinia sapien pharetra. Etiam ac elit aliquam, ornare massa nec, tempus dolor. Proin mauris elit, dignissim eu maximus eget, tincidunt in sapien. Aenean gravida est aliquet mauris feugiat, in scelerisque elit ultrices. Sed vitae lorem mollis, ullamcorper turpis a, sagittis augue. Cras ut vulputate lacus, vitae egestas tortor. Duis porta scelerisque eleifend. Duis tincidunt rutrum turpis eu maximus. Aliquam erat volutpat. Cras risus nisl, tincidunt eget efficitur sed, cursus a massa. Nulla cursus lacus ac sem hendrerit, vitae pellentesque orci elementum. Nunc luctus condimentum turpis sit amet maximus. Vestibulum luctus nunc at tellus mollis aliquet. Duis nibh lectus, dictum eget viverra ac, fermentum sed felis. Pellentesque ornare non purus at condimentum.</p>
+		
+		<p>Fusce ut condimentum ante, et venenatis neque. Morbi molestie accumsan neque, id tempus tortor rutrum ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In nisi ipsum, suscipit vitae eros ut, placerat finibus purus. Pellentesque pretium, lectus et lacinia condimentum, augue mauris porta libero, a gravida nunc nisi sed est. Donec imperdiet nec ligula sed vehicula. Nullam ut dui ut justo pretium vestibulum. Praesent ac ligula ornare nulla faucibus gravida sed at justo. Ut scelerisque orci laoreet quam malesuada volutpat. Curabitur in magna in ex ultricies elementum ut ac odio.</p>
+		
+		<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc dapibus vehicula urna ac lacinia. Curabitur consequat sapien et turpis mollis, id lobortis erat bibendum. Etiam dolor augue, iaculis a nibh non, ultrices ultricies eros. Donec ipsum risus, ultrices non risus non, aliquam consectetur leo. Quisque egestas leo vel tellus convallis tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dapibus sit amet nisi id finibus. Suspendisse consequat sed nisl in ornare. In non hendrerit nibh. Etiam ornare mauris nec libero gravida, sed posuere eros varius.</p>
+		
+		<p>Donec gravida dictum lectus ut blandit. Morbi commodo ante sit amet lectus convallis, ac malesuada est sodales. Vestibulum vitae velit lacus. Aenean non semper quam, vitae tincidunt nunc. Pellentesque tempor dui eget gravida interdum. Nulla ultrices blandit metus a finibus. Curabitur finibus elit eget maximus elementum. Sed commodo sed libero ut interdum. Nullam volutpat tempus augue sit amet hendrerit. Etiam dictum nisi vitae porta facilisis. Nunc cursus viverra luctus. Sed leo odio, tristique et pulvinar sed, viverra vel risus. Vivamus sit amet fringilla ligula. Etiam luctus ex id malesuada tincidunt.</p>
+		
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae tortor id lacus placerat sollicitudin eu ut arcu. Curabitur porta viverra mi, quis malesuada neque varius molestie. Suspendisse ante augue, condimentum eu ex id, feugiat molestie mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus et mattis massa. Vivamus hendrerit placerat arcu, in cursus metus auctor non. Suspendisse in libero pretium, aliquet tortor in, convallis ante. Pellentesque ac ex non nulla tincidunt porttitor a at neque. Vestibulum egestas ligula ac dui auctor rutrum.</p>
+		
+		<p>Nullam ultrices nibh vitae magna luctus, vitae lacinia sapien pharetra. Etiam ac elit aliquam, ornare massa nec, tempus dolor. Proin mauris elit, dignissim eu maximus eget, tincidunt in sapien. Aenean gravida est aliquet mauris feugiat, in scelerisque elit ultrices. Sed vitae lorem mollis, ullamcorper turpis a, sagittis augue. Cras ut vulputate lacus, vitae egestas tortor. Duis porta scelerisque eleifend. Duis tincidunt rutrum turpis eu maximus. Aliquam erat volutpat. Cras risus nisl, tincidunt eget efficitur sed, cursus a massa. Nulla cursus lacus ac sem hendrerit, vitae pellentesque orci elementum. Nunc luctus condimentum turpis sit amet maximus. Vestibulum luctus nunc at tellus mollis aliquet. Duis nibh lectus, dictum eget viverra ac, fermentum sed felis. Pellentesque ornare non purus at condimentum.</p>
+		
+		<p>Fusce ut condimentum ante, et venenatis neque. Morbi molestie accumsan neque, id tempus tortor rutrum ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In nisi ipsum, suscipit vitae eros ut, placerat finibus purus. Pellentesque pretium, lectus et lacinia condimentum, augue mauris porta libero, a gravida nunc nisi sed est. Donec imperdiet nec ligula sed vehicula. Nullam ut dui ut justo pretium vestibulum. Praesent ac ligula ornare nulla faucibus gravida sed at justo. Ut scelerisque orci laoreet quam malesuada volutpat. Curabitur in magna in ex ultricies elementum ut ac odio.</p>
+		
+		<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc dapibus vehicula urna ac lacinia. Curabitur consequat sapien et turpis mollis, id lobortis erat bibendum. Etiam dolor augue, iaculis a nibh non, ultrices ultricies eros. Donec ipsum risus, ultrices non risus non, aliquam consectetur leo. Quisque egestas leo vel tellus convallis tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dapibus sit amet nisi id finibus. Suspendisse consequat sed nisl in ornare. In non hendrerit nibh. Etiam ornare mauris nec libero gravida, sed posuere eros varius.</p>
+		
+		<p>Donec gravida dictum lectus ut blandit. Morbi commodo ante sit amet lectus convallis, ac malesuada est sodales. Vestibulum vitae velit lacus. Aenean non semper quam, vitae tincidunt nunc. Pellentesque tempor dui eget gravida interdum. Nulla ultrices blandit metus a finibus. Curabitur finibus elit eget maximus elementum. Sed commodo sed libero ut interdum. Nullam volutpat tempus augue sit amet hendrerit. Etiam dictum nisi vitae porta facilisis. Nunc cursus viverra luctus. Sed leo odio, tristique et pulvinar sed, viverra vel risus. Vivamus sit amet fringilla ligula. Etiam luctus ex id malesuada tincidunt.</p>
+		
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+		<meta charset="utf-8">
+		<meta name="author" content="Brendon Feitosa">
+		<meta name="description" content="Tamanho fonte, letra">
+		<meta name="keywords" content="css">
+		<title> Formata Texto Negrito </title>
+		
+		<style>
+		
+			p {
+			font-family: Segoe UI;<!---Todos os paragrafos terão esta fonte--->
+			}
+			p.normal {
+			font-weight: normal;
+			}
+			p.light {
+			font-weight: lighter;
+			font-variant: small-caps;<!---deixa o texto todo com letras maiuscula--->
+			}
+			p.thick {
+			font-weight: bold;
+			font-style: italic;<!---Deixa o texto em italico--->
+			}
+			p.negrito {
+			font-weight: bolder;
+			}
+			p.thicker {
+			font-weight: 900;
+			}
+			
+		</style>
+
+</head>
+<body>
+
+		<p class="normal"> Normal </p>
+		<p class="light"> Mais leve </p> <!---Deixa o texto mais claro que o texto padrão--->
+		<p class="thick"> Negrito </p> 
+		<p class="thick"> Mais <span class="negrito">Negrito </span>.</p> <!---Deixa o texto como bolder mais escuro que o anterior, se tiver 2 formas de negrito, o que esta dentro do bolder ficara mais escuro que o anterior--->
+		<p class="thicker"> Negrito com 900 </p><!---Negrito em numero é a partir de 700--->
+</body>
+</html>

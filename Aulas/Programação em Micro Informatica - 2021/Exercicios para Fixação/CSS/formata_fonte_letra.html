@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+		<meta charset="utf-8">
+		<meta name="author" content="Brendon Feitosa">
+		<meta name="description" content="Tamanho fonte, letra">
+		<meta name="keywords" content="css">
+		<title> Formata Texto </title>
+		
+	<style>
+		
+		p.pixel {
+		font-size: 40px;
+		font-family: Arial, Verdana, san-serif;
+		}
+		p.em {
+		font-size: 2.5em; <!---É o mesmo que 40 px a formula ara conversão é pixel/16=em--->
+		}
+		p.porcentagem {
+		font-size: 250%; <!---É o mesmo que 40px, a formula é que 16px é igual a 100%, quantos porcento é 40px--->
+		}
+		p.responsivo {
+		font-size: 5vw; <!---A fonte se ajusta de acordo com o tamanho da janela do navegador--->
+		font-family: fantasy;
+		}
+	
+	</style>	
+</head>
+
+<body>
+		<p class="pixel"> Tamanho da fonte em pixel </p>
+		<p class="em"> Tamanho da fonte em em </p>
+		<p class="porcentagem"> Tamanho da fonte em porcentagem </p>
+		<p class="responsivo"> Tamanho da fonte responsivo </p>
+</body>
+</html>
